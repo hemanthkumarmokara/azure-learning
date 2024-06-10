@@ -6,7 +6,7 @@ from sklearn import tree
 import joblib
 import sklearn
 # Load the model
-model = joblib.load('D:\\data analytics\\REAL-TIME PROJECTS\\AP EAPCET prediction\\algorithms used\\AP-EAPCET CLASSIFICATION.pkl')
+model = joblib.load('AP-EAPCET CLASSIFICATION.pkl')
 
 # Ensure it's a scikit-learn model
 if isinstance(model, sklearn.base.BaseEstimator):
